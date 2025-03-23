@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class MissingNumber {
         int sum;
         sum=(size*(size+1))/2;
         int s2=0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i= 0; i < arr.length; i++) {
             s2+=arr[i];
         }
         return sum-s2;

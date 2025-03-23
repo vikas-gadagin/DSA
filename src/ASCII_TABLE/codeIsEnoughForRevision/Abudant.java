@@ -16,11 +16,15 @@ public class Abudant {
         for (int i = 1; i < num; i++) {
             if (num % i == 0) {
                 sum = sum + i;
-
-
             }
         }
-        String result = sum > num ? "abudant" : "not abudant";
+
+
+
+
+           String result=sum>num?"abudant":"not abudant";
         System.out.println(result);
+
     }
 }
+

@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class NumberAppearOnce {
 //        for (int i = 0; i < arr.length; i++) {
 //            arr[i]=sc.nextInt();
 //        }
-        int[] arr = {4, 1, 2, 1, 2};
+        int[] arr = {4,4,5, 1, 2, 1, 2};
         onlyonce(arr);
         System.out.println(onlyonce(arr));
     }

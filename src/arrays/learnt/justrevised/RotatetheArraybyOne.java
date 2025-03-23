@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 import java.util.Scanner;
 public class RotatetheArraybyOne {
     public static void main(String[] args) {

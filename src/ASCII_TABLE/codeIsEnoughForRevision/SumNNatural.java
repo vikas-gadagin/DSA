@@ -1,19 +1,16 @@
 package ASCII_TABLE.codeIsEnoughForRevision;
-import java.util.Scanner;
-class SumNNatural{
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        sumnnatural(a,b);
 
+import java.util.Scanner;
+
+class SumNNatural {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(sumnnatural(a, b));
     }
 
-    public static void sumnnatural(int a,int b) {
-        int sum=0;
-        for (int i = a; i <=b; i++) {
-            sum=sum+i;
-        }
-        System.out.println(sum);
+    public static int sumnnatural(int a, int b) {
+        return (b * (b + 1)) / 2 - (a * (a - 1)) / 2; // Mathematical formula
     }
 }

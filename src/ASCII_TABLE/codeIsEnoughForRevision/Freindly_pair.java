@@ -10,7 +10,8 @@ public class Freindly_pair {
         sc.close();
         int sum2 = getdivisor(num2);
         int sum1 = getdivisor(num1);
-        String RESULT=(sum1/num1==sum2/num2)? ("both are friendly pair"):("not are friendly pair");
+        String RESULT=((double) sum1/num1==(double) sum2/num2)? ("both are friendly pair"):("not are friendly pair");
+        System.out.println(RESULT);
     }
 
     public static int getdivisor(int num) {

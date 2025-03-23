@@ -12,10 +12,9 @@ public class SumDigitsNumber {
 
     public static void  calculate(int num){
         int sum=0;
-      while (num!=0) {
-            sum+=num%10;
-            num=num/10;
-        }
-        System.out.println(sum);
+      for (;num!=0;num/=10){
+          sum=sum+num%10;
     }
+    System.out.println(sum);
+}
 }

@@ -8,7 +8,7 @@ public class EvenOrOdd {
     }
 
     public static void evenorodd(int num){
-        String result=num%2==0?"its is even ":"odd";
+        String result=num%2==0?"its is even ":"its is odd";
         System.out.println(result);
     }
 }

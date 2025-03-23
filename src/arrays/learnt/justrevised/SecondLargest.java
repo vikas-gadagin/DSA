@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 
 import java.util.Scanner;
 
@@ -21,9 +21,9 @@ public class SecondLargest {
                 secondmax=max;
                 max=arr[i];
             }
-//            else if (arr[i]<max && arr[i]>secondmax){
-//               secondmax=arr[i];
-//            }
+            else if (arr[i]<max && arr[i]>secondmax){
+               secondmax=arr[i];
+            }
         }
         System.out.println("second max :"+secondmax);
     }

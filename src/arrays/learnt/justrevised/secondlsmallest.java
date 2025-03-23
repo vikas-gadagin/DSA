@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 
 public class secondlsmallest{
     static int secSmallest(int arr[], int n) {
@@ -15,7 +15,8 @@ public class secondlsmallest{
             if (arr[i] < smallest) {
                 sec_smallest = smallest;
                 smallest = arr[i];
-            } else if (arr[i] < smallest && arr[i] > sec_smallest) {
+            }
+            else if (arr[i] < smallest && arr[i] > sec_smallest) {
                 sec_smallest = arr[i];
             }
         }

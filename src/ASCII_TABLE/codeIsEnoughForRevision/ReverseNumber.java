@@ -11,12 +11,9 @@ import java.util.Scanner;
     }
 
     public static void create(int num) {
-        int rem;
-        while (num!=0){
-            rem=num%10;
-            System.out.print(rem);
-            num=num/10;
-
+       for (int rem=0;num!=0;num/=10){
+           rem=num%10;
+           System.out.print(rem);
         }
 
     }

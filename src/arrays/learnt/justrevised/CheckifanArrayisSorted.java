@@ -1,4 +1,4 @@
-package arrays.learnt;
+package arrays.learnt.justrevised;
 
 public class CheckifanArrayisSorted {
     static boolean isSorted(int[] arr, int n) {
